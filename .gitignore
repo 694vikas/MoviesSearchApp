@@ -1,0 +1,26 @@
+# Node.js dependencies
+node_modules/
+
+# Environment variable files (keep sensitive data out of version control)
+.env
+
+# Log files
+*.log
+
+# OS generated files (e.g., macOS and Windows)
+.DS_Store
+Thumbs.db
+
+# Build and distribution files
+dist/
+build/
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# Coverage directory (for testing tools like Mocha or Jest)
+coverage/
+
+# npm package lock file (optional, some prefer to commit it)
+package-lock.json
